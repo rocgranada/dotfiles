@@ -12,6 +12,7 @@ cd ~ && git clone git@github.com:r-granada/dotfiles.git
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 ```
 
 ### Install dependencies
@@ -41,5 +42,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/cu
 - Install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md).
 _(On linux, the binary is already added to the PATH on the .zshrc file)_
 
-
+- Install [tmux](https://github.com/tmux/tmux/wiki/Installing):
+```bash
+sudo apt install tmux
+```
 
