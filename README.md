@@ -32,11 +32,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 - Install [oh-my-zsh](https://ohmyz.sh/#install) plugins:
 ```bash
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-git clone https://github.com/MichaelAquilina/zsh-you-should-use.git  ~/.oh-my-zsh/custom/plugins/you-should-use
-git clone https://github.com/fdellwing/zsh-bat.git  ~/.oh-my-zsh/custom/plugins/zsh-bat
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+git clone --depth 1 https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete.git ~/.oh-my-zsh/custom/plugins/zsh-autocomplete
+git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+git clone --depth 1 https://github.com/MichaelAquilina/zsh-you-should-use.git  ~/.oh-my-zsh/custom/plugins/you-should-use
+git clone --depth 1 https://github.com/fdellwing/zsh-bat.git  ~/.oh-my-zsh/custom/plugins/zsh-bat
+git clone --depth 1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 ```
 
 - Install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md).

@@ -19,7 +19,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git command-not-found common-aliases zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat)
+plugins=(git command-not-found common-aliases zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting you-should-use zsh-bat)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,3 +50,9 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Load work specific configuration
+if [ -f ~/.zshrc_work ]; then
+	source ~/.zshrc_work
+fi
+
