@@ -6,7 +6,7 @@ Personal Dotfiles repository. I want them re-usable between my PC, laptop and wo
 ### Preapre the dotfiles
 ```bash
 # Clone repository to home folder
-cd ~ && git clone git@github.com:r-granada/dotfiles.git
+cd ~ && git clone git@github.com:rocgranada/dotfiles.git
 
 # Create symlinks to repository dotfiles
 ln -s ~/dotfiles/.zshrc ~/.zshrc
