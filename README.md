@@ -53,3 +53,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nv
 sudo apt install tmux
 ```
 
+- Install [Kanagawa waves](https://github.com/rebelot/kanagawa.nvim/tree/master?tab=readme-ov-file#extras) terminal window color.
+ - [iTerm2 installation](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/README.md)
+
