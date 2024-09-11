@@ -41,7 +41,12 @@ git clone --depth 1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/cu
 ```
 
 - Install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md).
-_(On linux, the binary is already added to the PATH on the .zshrc file)_
+_(On linux, the binary is already added to the PATH on the .zshrc file)_:q
+
+- Install [Packer](https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#requirements):
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
 
 - Install [tmux](https://github.com/tmux/tmux/wiki/Installing):
 ```bash
