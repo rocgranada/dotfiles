@@ -20,7 +20,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git command-not-found common-aliases zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting you-should-use zsh-bat)
-plugins=(git common-aliases you-should-use)
+plugins=(git common-aliases you-should-use tmux)
 
 source $ZSH/oh-my-zsh.sh
 
