@@ -1,22 +1,15 @@
-local lsp_zero = require('lsp-zero')
+-- Mason Setup
+require("mason").setup()
+require("mason-lspconfig").setup()
 
-lsp_zero.preset("recommended")
-
-lsp_zero.on_attach(function(client, bufnr)
-  -- see :help lsp-zero-keybindings
-  -- to learn the available actions
-  lsp_zero.default_keymaps({buffer = bufnr})
-end)
-
--- here you can setup the language servers
-require('mason').setup({})
-require('mason-lspconfig').setup({
-	-- Replace the language servers listed here 
-	-- with the ones you want to install
-	ensure_installed = {'ruff', 'pyright'},
-	handlers = {
-		function(server_name)
-			require('lspconfig')[server_name].setup({})
-		end,
-	},
+-- Rust setup
+require("rust-tools").setup({
+  server = {
+    on_attach = function(_, bufnr)
+      -- Hover actions
+      vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
+      -- Code action groups
+      vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
+    end,
+  },
 })
