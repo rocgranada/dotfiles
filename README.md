@@ -13,6 +13,7 @@ ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/dotfiles/.config/nvim ~/.config/nvim
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/GEMINI.md ~/.gemini/GEMINI.md
 ```
 
 ### Install dependencies
