@@ -4,7 +4,7 @@
 
 # Rules & Constraints
 * **MUST:** Add docs for public methods. Docs explain why, not what. Always include tests. Always run the tests for the changes introduced.
-* **NEVER:** Use generic exceptions. Use generic typing.
+* **NEVER:** Use generic exceptions. Use generic typing. Add spaces to empty lines.
 
 # Testing
 * **Tool:** Pytest. JUnit.
