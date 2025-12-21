@@ -3,7 +3,7 @@
 * **Style:** Use 4 spaces for indentation.
 
 # Rules & Constraints
-* **MUST:** Add docs for public methods. Docs explain why, not what. Always include tests. Always run the tests for the changes introduced.
+* **MUST:** Add docs for public methods. Docs explain why, not what. Always include tests. Always run the tests for the changes introduced. Add typing.
 * **NEVER:** Use generic exceptions. Use generic typing. Add spaces to empty lines.
 
 # Testing
