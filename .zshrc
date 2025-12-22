@@ -47,6 +47,8 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 # Add NVIM to the Path
 if [ -d "/opt/nvim-linux64/bin" ]; then
 	export PATH="$PATH:/opt/nvim-linux64/bin"
+elif [ -d "/opt/nvim-linux-x86_64/bin" ]; then
+	export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 elif [ -d "$HOME/nvim-macos-arm64" ]; then
 	export PATH="$PATH:$HOME/nvim-macos-arm64/bin"
 fi
