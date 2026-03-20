@@ -67,3 +67,6 @@ if vim.fn.has('wsl') == 1 then
     })
 end
 
+-- nvim-tree
+vim.keymap.set('n', '<leader>e', ':NvimTreeFocus<CR>', {silent = true})
+
